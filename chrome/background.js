@@ -27,8 +27,8 @@ const URL_SITE = "https://www.gil2-cards.com/ouvrir"
 const URL_ICONE = "icon.png"
 const NOM_TIMER = "packsChecker"
 const NOM_EXTENSION = "Gil2Cards Watcher"
+const ANTI_SPAM = 15
 const REGEX_COMMENTAIRE = /<!--[\s\S]*?-->/g
-
 
 // initialisation du timer et des événements globaux
 const init = () => {
@@ -36,7 +36,8 @@ const init = () => {
 	if (!NOTIFICATIONS && !ONGLETS_AUTO)
 		return
 	// création du timer
-	chrome.alarms.create(NOM_TIMER, {periodInMinutes: FREQUENCE_DU_TIMER})
+	const frequency = FREQUENCE_DU_TIMER > ANTI_SPAM ? FREQUENCE_DU_TIMER : ANTI_SPAM
+	chrome.alarms.create(NOM_TIMER, {periodInMinutes: frequency})
 	// envoie une notification de démarrage
 	if (NOTIFICATIONS) {
 		chrome.notifications.create({
