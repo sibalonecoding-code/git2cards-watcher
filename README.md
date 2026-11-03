@@ -30,7 +30,10 @@ Le projet est divisé en deux dossiers distincts pour s'adapter aux spécificit�
     └── manifest.json
 ```
 
-🛠️ Installation
+---
+
+## 🛠️ Installation
+
 🦊 Sur Mozilla Firefox:
 - Téléchargez ou clonez ce dépôt sur votre machine.
 - Ouvrez Firefox et accédez à l'adresse : `about:debugging#/runtime/this-firefox`.
