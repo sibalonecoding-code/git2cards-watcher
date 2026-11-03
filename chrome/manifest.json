@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Gil2 Cards Watcher",
+  "version": "1.0.0",
+  "description": "Surveille mes packs Gil2 Cards en arrière-plan",
+  "permissions": [
+    "alarms",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://www.gil2-cards.com/*"
+  ],
+  "icons": {
+    "128": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
