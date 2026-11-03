@@ -4,8 +4,6 @@
 
 ## 🚀 Fonctionnalités
 
----
-
 - **Vérification en arrière-plan :** Interroge périodiquement le site via les alarmes du navigateur.
 - **Protection Anti-Spam :** Intègre une sécurité empêchant les vérifications trop rapprochées (fréquence minimale de 15 minutes).
 - **Notifications de bureau :** Vous avertit instantanément dès que le compteur atteint `10/10`.
@@ -13,8 +11,6 @@
 - **Léger et respectueux de la vie privée :** Aucun traqueur, aucun script lourd dans le DOM.
 
 ## 📂 Structure du projet
-
----
 
 Le projet est divisé en deux dossiers distincts pour s'adapter aux spécificités des différents moteurs de navigateurs :
 
@@ -32,8 +28,6 @@ Le projet est divisé en deux dossiers distincts pour s'adapter aux spécificit�
 
 ## 🛠️ Installation
 
----
-
 🦊 Sur Mozilla Firefox:
 - Téléchargez ou clonez ce dépôt sur votre machine.
 - Ouvrez Firefox et accédez à l'adresse : `about:debugging#/runtime/this-firefox`.
@@ -48,8 +42,6 @@ Le projet est divisé en deux dossiers distincts pour s'adapter aux spécificit�
 - Sélectionnez le dossier `chrome/` du projet.
 
 ## ⚙️ Configuration
-
----
 
 Vous pouvez personnaliser le comportement de l'extension en modifiant les variables situées tout en haut du fichier background.js du navigateur de votre choix :
 
