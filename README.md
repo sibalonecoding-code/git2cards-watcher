@@ -2,9 +2,9 @@
 
 **Gil2Cards Watcher** est une extension web légère, open-source et passive conçue pour **Firefox** et **Chrome**. Elle surveille en arrière-plan la disponibilité de vos packs sur le site [Gil2 Cards](https://www.gil2-cards.com) et vous alerte dès que vos 10 packs sont prêts à être ouverts.
 
----
-
 ## 🚀 Fonctionnalités
+
+---
 
 - **Vérification en arrière-plan :** Interroge périodiquement le site via les alarmes du navigateur.
 - **Protection Anti-Spam :** Intègre une sécurité empêchant les vérifications trop rapprochées (fréquence minimale de 15 minutes).
@@ -12,9 +12,9 @@
 - **Ouverture automatique (optionnelle) :** Ouvre directement un onglet vers la page de récupération des packs.
 - **Léger et respectueux de la vie privée :** Aucun traqueur, aucun script lourd dans le DOM.
 
----
-
 ## 📂 Structure du projet
+
+---
 
 Le projet est divisé en deux dossiers distincts pour s'adapter aux spécificités des différents moteurs de navigateurs :
 
@@ -30,9 +30,9 @@ Le projet est divisé en deux dossiers distincts pour s'adapter aux spécificit�
     └── manifest.json
 ```
 
----
-
 ## 🛠️ Installation
+
+---
 
 🦊 Sur Mozilla Firefox:
 - Téléchargez ou clonez ce dépôt sur votre machine.
@@ -47,7 +47,10 @@ Le projet est divisé en deux dossiers distincts pour s'adapter aux spécificit�
 - Cliquez sur le bouton "Charger l'extension non empaquetée".
 - Sélectionnez le dossier `chrome/` du projet.
 
-⚙️ Configuration
+## ⚙️ Configuration
+
+---
+
 Vous pouvez personnaliser le comportement de l'extension en modifiant les variables situées tout en haut du fichier background.js du navigateur de votre choix :
 
 ```js
